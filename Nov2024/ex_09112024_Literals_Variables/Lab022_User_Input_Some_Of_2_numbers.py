@@ -13,8 +13,12 @@
 #print(type(num2))
 
 # #so what we have to do-->convert str to int like below:
-num1 = int(input("Enter the num 1->"))#or-->num1 = int(num1)
-num2 = int(input("Enter the num 2->"))#or-->num2 = int(num2)
+#for int value
+num1 = float(input("Enter the num 1->"))#or-->num1 = int(num1)
+num2 = float(input("Enter the num 2->"))#or-->num2 = int(num2)
+#for float value
+num1 = float(input("Enter the num 1->"))#or-->num1 = int(num1)
+num2 = float(input("Enter the num 2->"))#or-->num2 = int(num2)
 #
 # # Step 2
 # #sum +, sub -, mul *, div /
